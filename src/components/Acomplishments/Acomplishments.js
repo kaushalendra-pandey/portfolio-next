@@ -26,16 +26,16 @@ const blogs = [
       description : "Everyone who has been working with REACT has come across a situation where he needs to render the same component for so many items...",
       link : "https://itskaush.hashnode.dev/doing-things-without-react"
   } ,
-  {
-      title : "Constructors in CPP",
-      description : "Object-Oriented Programming is a paradigm of programming which is based on the concepts of Objects. It is a style of p...",
-      link : "https://itskaush.hashnode.dev/constructors-in-c"
-  },
-  {
-      title : "Copy Constructors in Cpp",
-      description : "Copy constructors are constructors which are used to create an object as a copy of another object...",
-      link : "https://itskaush.hashnode.dev/copy-constructors-in-c"
-  } ,
+  // {
+  //     title : "Constructors in CPP",
+  //     description : "Object-Oriented Programming is a paradigm of programming which is based on the concepts of Objects. It is a style of p...",
+  //     link : "https://itskaush.hashnode.dev/constructors-in-c"
+  // },
+  // {
+  //     title : "Copy Constructors in Cpp",
+  //     description : "Copy constructors are constructors which are used to create an object as a copy of another object...",
+  //     link : "https://itskaush.hashnode.dev/copy-constructors-in-c"
+  // } ,
   {
     title : "CORS",
     description : "CORS or Cross-Origin Resource Sharing is the mechanism that allows websites from different origins ... ",

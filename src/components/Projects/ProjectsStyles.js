@@ -35,6 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  text-decoration: underline;
+  margin-top: 1rem;
 
 `;
 
@@ -110,3 +112,14 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+export const SeeMore = styled.a`
+color:#d4c0c0;
+text-align:center;
+margin-top: 2rem;
+font-size: 20px;
+transition: 0.5s;
+&:hover{
+  color: #801414;
+}
+`;

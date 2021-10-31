@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { BlogCard, CardInfo,SeeMore, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from '../Projects/ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { fullStackProjects } from '../../constants/constants';
+import { mentorProject } from '../../constants/constants';
 
-const Projects = () => (
+const MentorProject = () => (
   <Section nopadding id="projects">
-    {/* <SectionDivider /> */}
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Mentored Projects</SectionTitle>
+     <SectionDivider />
     <GridContainer>
-      {fullStackProjects.map((p, i) => {
+      {mentorProject.map((p, i) => {
         return (
           <BlogCard key={i}>
           <Img src={p.image} />
@@ -27,15 +27,14 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks href={p.visit}>Visit</ExternalLinks>
+              <ExternalLinks href={p.source}>Code</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
       })}
     </GridContainer>
-    <SeeMore href="/projects"> See More </SeeMore> 
   </Section>
 );
 
-export default Projects;
+export default MentorProject;

@@ -7,19 +7,23 @@ export const Boxes = styled.div`
   gap: 24px;
   margin: 24px 0 40px;
 
-  @media ${props => props.theme.breakpoints.md}{
+  /* @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
     margin: 20px 0 32px;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
-  }
+  } */
 
-  @media ${props => props.theme.breakpoints.sm}{
+  /* @media ${props => props.theme.breakpoints.sm}{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
-  }
+  } */
+  /* @media screen and (max-width-400px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  } */
 `
 
 export const Box = styled.div`
@@ -28,17 +32,17 @@ export const Box = styled.div`
   height: 300px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
+    /* height: 210px; */
 
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    /* height: 235px; */
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    /* height: 110px; */
     padding: 12px;
     
     &:nth-child(2n){

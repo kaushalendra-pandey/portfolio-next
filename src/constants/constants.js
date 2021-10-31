@@ -30,12 +30,123 @@ export const fullStackProjects = [
 
 export const vanillaJSProject = [
   {
-    title : "",
-    description: "",
-    image:"",
+    title : "Stonks 🚀",
+    description: "Check if your stock would be profitable.",
+    // image:"",
     tags:"",
-    source:"",
-    visit:"",
+    source:"https://github.com/kaushalendra-pandey/stock-calculator",
+    visit:"https://stonks-king.netlify.app",
+    id:0
+  },
+  {
+    title : "Palindrome 🎂",
+    description: "Birthday wasn't lucky? Check if it is a palindrome or not.",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/palindrome-birthday",
+    visit:"https://is-your-birthday-palidrome.netlify.app",
+    id:0
+  },
+  {
+    title : "Love-Triangle",
+    description: 'Triangle gives "odds" a chance.. Lets know them more!',
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/Triangles",
+    visit:"https://love-triangle.netlify.app",
+    id:0
+  },
+  {
+    title : "Birthday 🍰",
+    description: "You think you are lucky? Let's test it.",
+    // image:"",
+    tags:"",
+    source:"https://luckybirthday-kaush.netlify.app",
+    visit:"https://luckybirthday-kaush.netlify.app",
+    id:0
+  },
+  {
+    title : "KYCash 💵",
+    description: "We tell you how much along with how 'many'.. Cool, right?",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/CashRegister",
+    visit:"https://cashregister-kaush.netlify.app",
+    id:0
+  },
+  {
+    title : "LapHood 💻",
+    description: "Looking for laptops? Got you covered!",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/laptop-recommender",
+    visit:"https://laptop-recommender.netlify.app",
+    id:0
+  },
+  {
+    title : "Emojicademy",
+    description: "Know what emojis want to say.. Simple!",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/emojicademy",
+    visit:"https://laptop-recommender.netlify.app",
+    id:0
+  },
+  {
+    title : "Fun Translation",
+    description: "Translate what you type to a language out of this world.",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/Fun-translation-app",
+    visit:"https://fun-translation-app-kaush.netlify.app",
+    id:0
+  },
+  {
+    title : "Minion Speak",
+    description: "This is an app which translates whatever you type to minion language",
+    // image:"",
+    tags:"",
+    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://kaush-minion-speak.netlify.app",
+    id:0
+  }
+]
+
+export const mentorProject = [
+  {
+    title : "Crypto Tracker",
+    description: "Crypto Currencies are the new normal, but there price keeps on fluctuating. You can keep track of all your cryptos at one place.",
+    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/cyrpto-tracker-min.gif",
+    tags:["React"],
+    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://kaush-minion-speak.netlify.app",
+    id:0
+  },
+  {
+    title : "Space Launcher",
+    description: "This app uses SpaceX api for fetching different spaceships information and also launch them to different planets.",
+    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/spacex-min.gif",
+    tags:["EJS", "NODE", "EXPRESS"],
+    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://kaush-minion-speak.netlify.app",
+    id:0
+  },
+  {
+    title : "Project Management",
+    description: "This is an app which translates whatever you type to minion language",
+    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/project-manager-min.gif",
+    tags:["React"],
+    // source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://kaush-minion-speak.netlify.app",
+    id:0
+  },
+  {
+    title : "Password Mananger",
+    description: "This app keep track of all your passwords and ensures its anonymity by Hashing the password so that only you can access it.",
+    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/password-manager-min.gif",
+    tags:["Node" ,"EJS", "MongoDB"],
+    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://kaush-minion-speak.netlify.app",
     id:0
   }
 ]

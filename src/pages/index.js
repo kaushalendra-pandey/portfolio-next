@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
+import Blogs from '../components/Blogs/blogs';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -17,7 +18,8 @@ const Home = () => {
       <Timeline />
       <Projects />
       <Technologies />
-      <Acomplishments />
+      {/* <Acomplishments /> */}
+      <Blogs/>
     </Layout>
   );
 };
