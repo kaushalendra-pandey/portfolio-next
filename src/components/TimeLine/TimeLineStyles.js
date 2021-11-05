@@ -8,7 +8,7 @@ export const CarouselContainer = styled.ul`
   list-style:none;
   display: flex;
   justify-content: space-between; 
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 
   margin-left: 32px;
   &:first-of-type{
@@ -119,9 +119,12 @@ export const CarouselItemText = styled.p`
 `
 export const CarouselButtons = styled.div`
   width: 288px;
-
-  display: none;
-  visibility: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items:center; */
+  /* display: none;
+  visibility: hidden; */
+  margin-left: 40%;
 
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
@@ -149,6 +152,14 @@ export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
-  height: 3px;
+  width: 10px;
+  height: 10px;
+
+  @media ${props => props.theme.breakpoints.sm} {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 3px;
+    height: 3px;
+  }
 `

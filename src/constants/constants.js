@@ -114,11 +114,20 @@ export const vanillaJSProject = [
 
 export const mentorProject = [
   {
+    title : "Project Management",
+    description: "This is an app which translates whatever you type to minion language",
+    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/project-manager-min.gif",
+    tags:["React"],
+    // source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    visit:"https://projectmanager-kanban.netlify.app/",
+    id:0
+  },
+  {
     title : "Crypto Tracker",
     description: "Crypto Currencies are the new normal, but there price keeps on fluctuating. You can keep track of all your cryptos at one place.",
     image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/cyrpto-tracker-min.gif",
     tags:["React"],
-    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    source:"Not available",
     visit:"https://kaush-minion-speak.netlify.app",
     id:0
   },
@@ -127,16 +136,7 @@ export const mentorProject = [
     description: "This app uses SpaceX api for fetching different spaceships information and also launch them to different planets.",
     image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/spacex-min.gif",
     tags:["EJS", "NODE", "EXPRESS"],
-    source:"https://github.com/kaushalendra-pandey/Minion-speak",
-    visit:"https://kaush-minion-speak.netlify.app",
-    id:0
-  },
-  {
-    title : "Project Management",
-    description: "This is an app which translates whatever you type to minion language",
-    image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/project-manager-min.gif",
-    tags:["React"],
-    // source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    source:"Not available",
     visit:"https://kaush-minion-speak.netlify.app",
     id:0
   },
@@ -145,16 +145,21 @@ export const mentorProject = [
     description: "This app keep track of all your passwords and ensures its anonymity by Hashing the password so that only you can access it.",
     image:"https://webd-prod-practicum-courses-gifs.s3.ap-south-1.amazonaws.com/password-manager-min.gif",
     tags:["Node" ,"EJS", "MongoDB"],
-    source:"https://github.com/kaushalendra-pandey/Minion-speak",
+    source:"Not available",
     visit:"https://kaush-minion-speak.netlify.app",
     id:0
   }
 ]
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { tool: "JavaScript"},
+  { tool: "React"},
+  { tool: "Node"},
+  { tool: "MongoDB"},
+  { tool: "MySQL"},
+  { tool: "Material UI"},
+  { tool: "Styled Components"},
+  { tool: "Tailwind"},
+  { tool: "Python"},
+ 
 ];

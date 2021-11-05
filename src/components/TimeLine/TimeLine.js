@@ -3,6 +3,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import {IoLogoJavascript,IoLogoNodejs} from "react-icons/io"
+import {DiMongodb,DiCode,DiPython, DiCssTricks,DiReact} from "react-icons/di"
+import {SiMysql} from "react-icons/si"
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -51,7 +54,13 @@ const Timeline = () => {
           proper structure. My tech stack includes Node, React, MongoDB, MySQL and NextJS. I am interested 
           in Cloud stuffs and currently devoting my time to SERVERLESS.
       </SectionText>
-      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+
+      <SectionDivider />
+      <br/>
+
+      <SectionTitle>My Tech Stack</SectionTitle>
+      <br/>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -63,7 +72,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                  {`${item.tool}`}
                   <CarouselItemImg
                     width="208"
                     height="6"
@@ -95,13 +104,32 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>{item.text}</CarouselItemText>
+                <CarouselItemText>
+                  {
+                    item?.tool === "JavaScript" ? 
+                    <IoLogoJavascript size="3rem"/> : 
+                    item?.tool === 'React' ?
+                    <DiReact size="3rem"/> :
+                    item?.tool === "Node" ? 
+                    <IoLogoNodejs size="3rem"/> : 
+                    item?.tool === "MongoDB" ? 
+                    <DiMongodb size="3rem"/> :
+                    item?.tool === "MySQL" ? 
+                    <SiMysql size="3rem"/> : 
+                    item?.tool === "Tailwind" ? 
+                    <DiCode size="3rem"/> :
+                    item?.tool === "Python" ?
+                    <DiPython size="3rem"/> :
+                    ""
+                    
+                  }
+                </CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer> */}
-      {/* <CarouselButtons>
+      </CarouselContainer> 
+       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
             <CarouselButton
@@ -114,7 +142,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */}
+      </CarouselButtons>
       <SectionDivider />
     </Section>
   );
