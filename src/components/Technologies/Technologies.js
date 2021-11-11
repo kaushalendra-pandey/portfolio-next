@@ -2,7 +2,8 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-import { FaServer } from "react-icons/fa";
+import { FaServer, FaAws} from "react-icons/fa";
+import {AiOutlineDeploymentUnit} from "react-icons/ai"
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -46,6 +47,30 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             MongoDB and MySQL
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <FaAws size="6rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Cloud</ListTitle>
+          <ListParagraph>
+            Worked with<br />
+            AWS.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <AiOutlineDeploymentUnit size="6rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Deployment</ListTitle>
+          <ListParagraph>
+            Deployed projects using<br />
+            Heroku, Netlify and Vercel
           </ListParagraph>
         </ListContainer>
       </ListItem>

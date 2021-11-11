@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GiBlackBook } from "react-icons/gi";
+import { SiLeetcode } from 'react-icons/si';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -34,6 +35,9 @@ const Footer = () => {
           <SocialIcons href="https://hashnode.com/@itsKaush">
             <GiBlackBook size="3rem" />
           </SocialIcons>
+          <SocialIcons href="https://leetcode.com/its_kaush/">
+          <SiLeetcode size="3rem" />
+        </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

@@ -161,5 +161,6 @@ export const TimeLineData = [
   { tool: "Styled Components"},
   { tool: "Tailwind"},
   { tool: "Python"},
+  {tool: "Github"}
  
 ];

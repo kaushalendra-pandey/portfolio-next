@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GiBlackBook } from "react-icons/gi";
 import { DiCssdeck } from 'react-icons/di';
+import {SiLeetcode} from "react-icons/si"
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -46,6 +47,9 @@ const Header = () =>  (
         </SocialIcons>
         <SocialIcons href="https://hashnode.com/@itsKaush">
           <GiBlackBook size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://leetcode.com/its_kaush/">
+          <SiLeetcode size="3rem" />
         </SocialIcons>
         
       </Div3>
