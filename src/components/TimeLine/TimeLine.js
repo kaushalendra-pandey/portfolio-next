@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 import {IoLogoJavascript,IoLogoNodejs} from "react-icons/io"
 import {DiMongodb,DiCode,DiPython, DiCssTricks,DiReact} from "react-icons/di"
-import {SiMysql,SiGithub} from "react-icons/si"
+import {SiMysql,SiGithub,SiFirebase} from "react-icons/si"
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -122,6 +122,8 @@ const Timeline = () => {
                     <DiPython size="3rem"/> :
                     item?.tool === "Github" ?
                     <SiGithub size="3rem"/> :
+                    item?.tool === "Firebase" ?
+                    <SiFirebase size="3rem"/> :
                     ""
                     
                   }
