@@ -11,7 +11,7 @@ export const fullStackProjects = [
   {
     title: 'Bingify',
     description: "Create A UI clone of Netflix for testing out my CSS skils. Apart from this I used firebase for Authentication and using Series and Films data. I also learnt UNIT TESTING while making this project.",
-      image: '/images/codemine.png',
+      image: '/images/bingify.jpg',
       tags: ['React', 'Styled Components', 'Unit Testing', 'Firebase', "CSS"],
     source: 'https://github.com/kaushalendra-pandey/myNetflix',
     visit: 'https://bingiiify.netlify.app/browse',
