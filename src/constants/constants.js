@@ -14,7 +14,7 @@ export const fullStackProjects = [
       image: '/images/bingify.jpg',
       tags: ['React', 'Styled Components', 'Unit Testing', 'Firebase', "CSS"],
     source: 'https://github.com/kaushalendra-pandey/myNetflix',
-    visit: 'https://bingiiify.netlify.app/browse',
+    visit: 'https://bingiiify.netlify.app',
     id: 0,
   },
   {
