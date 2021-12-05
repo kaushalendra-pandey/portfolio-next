@@ -28,10 +28,10 @@ const Projects = () => (
             </div>
             <UtilityList>
               {
-                p?.visit && <ExternalLinks href={p.visit}>Visit</ExternalLinks>
+                p?.visit && <ExternalLinks target="_blank" href={p.visit}>Visit</ExternalLinks>
               }
               
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks target="_blank" href={p.source}>Source</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
