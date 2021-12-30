@@ -171,6 +171,7 @@ export const TimeLineData = [
   { tool: "Tailwind"},
   { tool: "Python"},
   {tool: "Github"},
-  {tool: 'Firebase'}
+  {tool: 'Firebase'},
+  {tool: "Jest"}
  
 ];

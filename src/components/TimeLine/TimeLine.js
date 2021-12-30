@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 import {IoLogoJavascript,IoLogoNodejs} from "react-icons/io"
 import {DiMongodb,DiCode,DiPython, DiCssTricks,DiReact} from "react-icons/di"
-import {SiMysql,SiGithub,SiFirebase} from "react-icons/si"
+import {SiMysql,SiGithub,SiFirebase,SiJest} from "react-icons/si"
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -52,7 +52,8 @@ const Timeline = () => {
           I am a full stack web developer at <a href="https://myways.in"> MyWays Pvt. Layout Limited. </a>.
           I am really passionate about making super-fast and hassle-free web apps with clean code and
           proper structure. My tech stack includes Node, React, MongoDB, MySQL and NextJS. I am interested 
-          in Cloud stuffs and currently devoting my time to SERVERLESS.
+          in Cloud stuffs and currently devoting my time to SERVERLESS.I also love problem solving and make 
+          sure that I solve 3-4 Data Structures and Algorithms problems a day.
       </SectionText>
 
       <SectionDivider />
@@ -124,6 +125,8 @@ const Timeline = () => {
                     <SiGithub size="3rem"/> :
                     item?.tool === "Firebase" ?
                     <SiFirebase size="3rem"/> :
+                    item?.tool === "Jest" ?
+                    <SiJest size="3rem"/> :
                     ""
                     
                   }

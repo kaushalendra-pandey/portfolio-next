@@ -13,7 +13,8 @@ const Home = () => {
     <Layout>
       <Section grid>
         <Hero />
-        <BgAnimation />
+        {/* <BgAnimation /> */}
+        <img src="https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg"/>
       </Section>
       <Timeline />
       <Projects />

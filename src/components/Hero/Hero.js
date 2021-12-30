@@ -18,7 +18,7 @@ const Hero = (props) => (
         </SectionText>
         <a 
         target="_blank"
-        href="https://drive.google.com/file/d/1nAxB3-ihULLCWwQsxwf_J9Qufm6kYo7z/view?usp=sharing" 
+        href="https://drive.google.com/file/d/1DOHzaapDy4b815nFWYamNRtD9k6i2o1O/view?usp=sharing" 
           download="Kaushalendra's Resume">
           <Button>
             Get My Resume 
