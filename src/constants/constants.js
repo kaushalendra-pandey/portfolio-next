@@ -1,12 +1,21 @@
 export const fullStackProjects = [
   {
+    title: 'Fintrack',
+    description: "Keep track of all your subscription, bills and daily transactions.",
+      image: 'https://i.imgur.com/AYHceyJ.png',
+      tags: ["MongoDB","Styled-Components", "React", "Node","Testing"],
+    source: 'https://github.com/kaushalendra-pandey/fintrack',
+    visit: 'https://fintrack-hb.netlify.app',
+    id: 0,
+  },
+  {
     title: 'CodeMine',
     description: "This is a question bank for all the Data Structures and Algorithms which you have solved.",
       image: '/images/codemine.png',
-      tags: ['Mongo', 'Express', 'React', 'Node', "Redux"],
+      tags: ['MongoDB', 'Express', 'React', 'Node', "Redux"],
     source: 'https://github.com/kaushalendra-pandey/Codemine',
     // visit: 'https://google.com',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Bingify',
@@ -15,7 +24,7 @@ export const fullStackProjects = [
       tags: ['React', 'Styled Components', 'Unit Testing', 'Firebase', "CSS"],
     source: 'https://github.com/kaushalendra-pandey/myNetflix',
     visit: 'https://bingiiify.netlify.app',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Zodiac',
@@ -24,17 +33,17 @@ export const fullStackProjects = [
     tags: ['React', 'MongoDB', "Node"],
     source: 'https://github.com/kaushalendra-pandey/zodiac',
     // visit: 'https://google.com',
-    id: 1,
+    id: 3,
   },
-  {
-    title: 'Memories',
-    description: "It is a social media app which allows user the user to connect with different users, share posts, like other person's post and follow them.",
-      image: '/images/memories.png',
-      tags: ['React', 'MongoDB', "Node", "ContextAPI"],
-    source: 'https://github.com/kaushalendra-pandey/memories',
-    // visit: 'https://google.com',
-    id: 2,
-  }
+  // {
+  //   title: 'Memories',
+  //   description: "It is a social media app which allows user the user to connect with different users, share posts, like other person's post and follow them.",
+  //     image: '/images/memories.png',
+  //     tags: ['React', 'MongoDB', "Node", "ContextAPI"],
+  //   source: 'https://github.com/kaushalendra-pandey/memories',
+  //   // visit: 'https://google.com',
+  //   id: 4,
+  // }
 ];
 
 export const vanillaJSProject = [

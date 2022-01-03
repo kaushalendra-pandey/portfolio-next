@@ -22,7 +22,7 @@ const Projects = () => (
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
+                  return <Tag key={t.id}>{t}</Tag>;
                 })}
               </TagList>
             </div>
