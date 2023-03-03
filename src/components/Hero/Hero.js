@@ -16,14 +16,14 @@ const Hero = (props) => (
           I am a full stack web developer and a tech enthusiast. I love reading about tech,
           writing about web development, building things and problem solving.
         </SectionText>
-        <a 
+        {/* <a 
         target="_blank"
         href="https://drive.google.com/file/d/1gLKAV2KRRQu7ZBFdlwYEZJBdTcNFVQRG/view?usp=sharing" 
           download="Kaushalendra's Resume">
           <Button>
             Get My Resume 
           </Button>
-        </a>
+        </a> */}
         {/* {
             <Link style={{display: 'none'}} ref="linkRef" href="#about"></Link>
         } */}
